@@ -1,0 +1,9 @@
+★ Python program to find the largest element in a list
+
+nums =list(map(int,input().split()))
+# print(max(nums))
+m=nums[0]
+for i in range(len(nums)):
+    if nums[i]>m:
+        m=nums[i]
+print(m)
