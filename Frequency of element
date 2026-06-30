@@ -1,0 +1,10 @@
+★  Python program to count the frequency of each element in a list
+
+nums=list(map(int,input().split()))
+freq={}
+for n in nums:
+    if n in freq:
+        freq[n]+=1
+    else:
+        freq[n]=1
+print(freq)
